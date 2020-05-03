@@ -30,20 +30,41 @@ pass
 #len(), min(), max() and etc..
 # print(sys.argv.index('80'))
 
-a_string = 'Z cnhjrf, fdcjdc, dccjd/'
-list = ['aa', 'bb', 'cc', 672364, [1, 2, 3, 'ty']]
-# print(dir(list))
-print(len(list))
-print(a_string)
-a_list = a_string.split('c')
+# a_string = 'Z cnhjrf, fdcjdc, dccjd/'
+# list = ['aa', 'bb', 'cc', 672364, [1, 2, 3, 'ty']]
+# # print(dir(list))
+# print(len(list))
+# print(a_string)
+# a_list = a_string.split('c')
 
-a_list.append('12345')
-print(a_list)
+# a_list.append('12345')
+# print(a_list)
 
-a_list[1] = 'список!'
-a_list.remove('12345')
-print(a_list)
+# a_list[1] = 'список!'
+# a_list.remove('12345')
+# print(a_list)
 
 # del a_list
 # print(a_list)
+#4) Кортежи(tuple)
+# t = (1,)
+# print(type(t))
+# a, b, c = ('s', 'd', 1)
 
+# print(a,b,c)
+
+# # 5) Словари - похожие на списки. Хранят ключ:значение. Ключ - неименияемый тип данных(int, float, string, tuple).
+# d =dict(
+#     света=27, 
+#     Юра=30, 
+#     Саша=18)
+# print(d)
+# print(str(d['света']) + ' y.o.')
+
+
+#6) Множество(set)
+s = set()
+print(type(s))
+s.add(1)
+s.add('www')
+print(s)
