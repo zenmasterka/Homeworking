@@ -39,6 +39,9 @@ for line in lines:
 print("Количество обращений с браузера Safari:", s)
 print("Количество обращений с браузера Chrome:", c)
 print("Количество обращений с браузера Mozilla:", m)
+
+
+
 fp.seek(0)
 f.close()
 fp.close()
